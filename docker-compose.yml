@@ -1,0 +1,6 @@
+services:
+  build-extension:
+    build: .
+    volumes:
+      - ./dist:/output/dist
+    container_name: ai-extension-builder
